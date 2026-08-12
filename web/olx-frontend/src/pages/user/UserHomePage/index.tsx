@@ -288,13 +288,7 @@ const UserHomePage: React.FC = () => {
                 {slide.cta}
               </button>
             </div>
-            <div className="flex-1 flex justify-center md:justify-end z-[1]">
-              {/* Local, static decorative mark — no remote imagery (matches the no-online-image
-                  policy in buildImageUrl.ts). */}
-              <div className="w-40 h-40 md:w-48 md:h-48 rounded-3xl bg-white/10 border border-white/20 shadow-lg flex items-center justify-center">
-                <img src="/images/multimart/logo.svg" alt="MultiMart" className="w-50 h-50" />
-              </div>
-            </div>
+            
           </div>
 
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
